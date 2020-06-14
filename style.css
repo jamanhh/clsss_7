@@ -1,0 +1,125 @@
+body{
+  background-color:  #290000;
+  padding: 0;
+  margin: 0;
+}
+
+/* header start */
+header{}
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.logo{
+  width: 20%;
+  float: left;
+}
+.logo h1{
+  width: 100%;
+}
+.menu{
+  width: 70%;
+  float: right;
+}
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.menu ul li{
+  float: left;
+}
+.menu ul li a{
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 10px;
+  transition: 5s;
+}
+.menu ul li a:hover{
+  color: blue;
+}
+
+/* header start*/
+/* slider end */
+.slider{}
+.block{
+  width: 45%;
+  float: left;
+  margin: 80px 0;
+}
+.block h1{
+  color: #FFFFFF;
+  font-size: 46px;
+}
+.block p{
+  color: #979797;
+  font-size: 12px;
+  margin: 20px 0;
+}
+.block button{
+  color: #FFFFFF;
+  font-size: 13px;
+  background-color: #76C38F;
+  border: 1px solid #76C38F;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.holder{
+  width: 50%;
+  float: right;
+  margin: 80px 0;
+}
+.holder img{
+  width: 100%;
+}
+/* slider end*/
+/* services start */
+.service{
+  background-color: #660000;
+  padding: 50px 0;
+}
+.box{
+  width: 17%;
+  background-color: #FFFFFF;
+  padding: 20px;
+  float: left;
+  margin: 10px 10px;
+ 
+}
+.box img{
+  width: 100%;
+}
+.box h1{
+  color: #333333;
+  font-size: 32;
+}
+.box p{
+  color: #979797;
+  font-size: 12;
+}
+/* services end */
+/* Table start */
+table{
+  width: 100%;
+}
+table, th, td{
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+th, td{ 
+  padding: 5px;
+  text-align: left;
+  color: #979797;
+}
+
+/* Table end */
+h1{
+  color: #FFFFFF;
+}
+p{
+  color: 979797;
+}
